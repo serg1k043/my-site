@@ -1,0 +1,66 @@
+<title>For You ♡</title>
+
+<!-- Шрифт Montserrat -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        margin: 0;
+        min-height: 100vh;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background-color: #F8C8DC;
+        font-family: 'Montserrat', sans-serif;
+        color: #713F54;
+    }
+
+    .container {
+        text-align: center;
+        padding: 25px;
+        max-width: 700px;
+
+        animation: appear 2s ease;
+    }
+
+    h1 {
+        font-size: 42px;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+
+    .heart {
+        font-size: 35px;
+        margin-top: 20px;
+    }
+
+    @keyframes appear {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    /* Для телефонов */
+    @media (max-width: 600px) {
+        h1 {
+            font-size: 30px;
+        }
+    }
+</style>
+<div class="container">
+
+    <h1>
+        Я оооочень сильно люблю тебя, Солнышко))
+    </h1>
+
+    <div class="heart">♡</div>
+
+</div>
